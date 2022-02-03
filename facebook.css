@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: #3f5c9a;
+    border-bottom: 1px solid #253a69;
+}
+.logo{
+    position: absolute;
+    height: px;
+    width: 190px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+.login{
+  display: flex;  
+  position: absolute;
+  font-family: verdana;
+  left: 58%;
+  top: 15px;
+}
+.login .email,
+.login .password{
+    padding-left: 10px;
+}  
+.login .email .font,
+.login .password .font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.login .email .input,
+.login .password .input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+
+}
+.login-btn{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+
+section{
+    display: flex;
+    height: 768px;
+    background: linear-gradient(1deg, #D7DBE9, #fefefe);
+}
+
+.logo-body {
+ 
+ width: 50%;
+ margin: 25px 0;
+}
+#pass{
+    color: white;
+}
+.logo-body img{
+    margin-left: 40px;
+}
+.logo-account .para{
+ font-size: 40px;
+ margin: 25px 0;
+}
+.logo-account .free{
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.logo-account .sign-form input{
+     margin-top: 50px;
+     height: 38px;
+     /* width: 190px; */
+     padding-left: 10px;
+     font-size: 18px;
+     border: 1px solid silver;
+     border-radius: 4px;
+}
+.logo-account .sign-form .lastname{
+    margin-left: 15px;
+}
+.logo-account .sign-form .email,
+.logo-account .sign-form .password,
+.logo-account .sign-form .password2{
+    margin-top: 20px;
+    width: 410px;
+}
+.logo-account  .sign-form .birthday{
+    margin-top: 1px;
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+
+}
+.logo-account  .sign-form .birthdate{
+    margin-top: 5px;
+}
+.birthdate{
+    display: flex;
+}
+.logo-account  .sign-form .month,
+.logo-account  .sign-form .day,
+ .logo-account  .sign-form .year{
+height: 28px;
+  }         
+
+.month{
+    margin: 0 5px;
+}
+.year{
+    margin-right:  5px;
+}
+.logo-account  .sign-form .day{
+    font-size: 15px;
+   
+    
+
+    width: 150px;
+}
+.logo-account  .sign-form a{
+    text-decoration: none; 
+ } 
+ .logo-account  .sign-form a:hover{
+     text-decoration: underline;
+ }
+ .logo-account  .sign-form input[type="radio"]{
+     height: 15px;
+     margin-top: 35px;
+     margin-left: 10px;
+ }
+ .logo-account  .sign-form input[value="female"]{
+     margin-left: 55px;
+     display: flex;
+    
+ }
+ .logo-account  .sign-form .font{
+     margin-left: 57px;
+     /* margin-top: -17px; */
+ }
+ /* .logo-account  .sign-form .font2{
+     
+ }*/
+ /* .gender{
+    display: flex; 
+     
+ } */
+ .logo-account  .sign-form .agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+ }
+ .font2{
+    display: flex;
+ }
+ .logo-account  .sign-form .tick{
+    margin-top: 20px;
+    height: 38px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: 60;
+    border: 1px solid ;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #006117;
+ }
+
+ .birthday{
+    display: flex;
+ }
